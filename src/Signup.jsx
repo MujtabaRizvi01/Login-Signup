@@ -18,15 +18,9 @@ const Signup = () => {
                 <h1>Register</h1>
                 <form onSubmit={handleSubmit}>
                     <div>
-                        <label htmlFor="email">
-                            <strong>Email</strong>
-                        </label>
                         <input type="text" placeholder='Enter Email' autoComplete='off' name='email' onChange={(e)=>{setEmail(e.target.value)}} />
                     </div>
                     <div>
-                        <label htmlFor="email">
-                            <strong>Password</strong>
-                        </label>
                         <input type="text" placeholder='Enter Password' autoComplete='off' name='password' onChange={(e)=>{setPassword(e.target.value)}} />
                     </div>
                     <button type='submit'>Register</button>
